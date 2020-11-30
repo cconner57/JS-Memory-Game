@@ -1,0 +1,19 @@
+#game {
+  display: grid;
+  grid-template-columns: 115px 115px 115px 115px 115px;
+  justify-content: center;
+}
+
+#game div {
+  flex: 1 0 21%;
+  border: 1px solid black;
+  border-radius: 50%;
+  max-width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
